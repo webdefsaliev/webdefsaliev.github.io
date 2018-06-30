@@ -166,7 +166,7 @@ footer{
 		margin-top: 12px;
 	}
 	.header-title{
-		font-size: 45
+		font-size: 45px;
 	}
 
 }
@@ -176,6 +176,17 @@ footer{
 	}
 	.header-pretitle{
 		margin-top: 3px;
+		text-align:center;
+	}
+	.header-title{
+		font-size: 33px;
+		text-align:center;
+	}
+	.header-subtitle{
+		text-align:center;
+	}
+	.header-button-block{
+		text-align:center;
 	}
 	.footer-author{
 		font-size: 18px;
