@@ -44,13 +44,13 @@ header small{
 	display: inline-block;
 	text-decoration: none;
 	cursor: pointer;
+	transition:all .2s;
 }
 .header-button:hover{
 	box-shadow: 15px 17px 34px -7px rgba(18, 61, 145, 0.83);
 	background:#3a7dfd;
 	color: #fff;
 	border:1px solid #fff;
-	transition:all .4s;
 }
 .header-button:focus{
 	outline: none;
@@ -147,11 +147,11 @@ footer{
 	font-size: 18px;
 	padding:12px 40px;
 	text-decoration: none;
+	transition:all .2s;
 }
 .footer-button:hover{
 	background:#fff;
 	color: #3a7dfd;
-	transition:all .4s;
 }
 .footer-button:focus{
 	outline:none;

@@ -14,11 +14,12 @@
 		<!-- Иконка, которая будет на вкладке в браузере -->
 		<link rel="icon" href="/favicon.ico">
 		<!-- Заголовок на вкладке в браузере -->
-		<title></title>
+		<title>Веб-разработчик</title>
 
 		<!-- Подключаем наш файл со стилями, который находится в папке css-->
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>	
@@ -26,14 +27,14 @@
  		<div class="container">
  			<div class="row">
  				<div class="col-lg-7">
- 					<img class="header-img" src="img/main-img.png" alt="Монтор">
+ 					<img class="header-img wow fadeInLeftBig" src="img/main-img.png" alt="Монтор">
  				</div>
  				<!-- /.col-7 -->
  				<div class="col-lg-5">
- 					<p class="header-pretitle">Веб-разработчик</p>
- 					<h1 class="header-title" ">Абдумалик Салиев</h1>
- 					<p class="header-subtitle">Верстка на HTML/CSS/JS/PHP<br>Разработка сайтов под ключ</p>
- 					<div class="header-button-block">
+ 					<p class="header-pretitle wow fadeInRightBig" data-wow-delay="0.1s">Веб-разработчик</p>
+ 					<h1 class="header-title wow fadeInRightBig" data-wow-delay="0.2s">Абдумалик Салиев</h1>
+ 					<p class="header-subtitle wow fadeInRightBig" data-wow-delay="0.3s">Верстка на HTML/CSS/JS/PHP<br>Разработка сайтов под ключ</p>
+ 					<div class="header-button-block wow fadeInRightBig" data-wow-delay="0.4s">
  						<a href="https://t.me/complexsoft" class="header-button">Связаться</a>
  						<small>*Это бесплатно</small>
  					</div>
@@ -45,7 +46,7 @@
 
  	<section class="portfolio">
  		<div class="container">
- 			<div class="portfolio-block">
+ 			<div class="portfolio-block wow fadeIn">
 	 			<h2 class="portfolio-title">Портфолио</h2>
 	 			<p class="portfolio-subtitle">Мои работы</p>
 	 			<div class="row">
@@ -80,10 +81,10 @@
 	 			<div class="col-md-4">
 	 				<div class="social-block">
 	 					<p>Подпишитесь</p>
-	 					<a href="https://www.facebook.com/abdulloh_shakirov/"><img src="img/socials/facebook-logo-button.png" alt="Facebook"></a>
-	 					<a href="https://t.me/conmlexsoft"><img src="img/socials/telegram-symbol.png" alt="Telegram"></a>
-	 					<a href="https://vk.com/saliev03"><img src="img/socials/vk-social-logotype.png" alt="VK"></a>
-	 					<a href="#"><img src="img/socials/youtube-symbol.png" alt="Youttube"></a>
+	 					<a href="https://www.facebook.com/abdulloh_shakirov/" class="wow bounceInDown" data-wow-delay="0.1s"><img src="img/socials/facebook-logo-button.png" alt="Facebook"></a>
+	 					<a href="https://t.me/conmlexsoft" class="wow bounceInDown" data-wow-delay="0.2s"><img src="img/socials/telegram-symbol.png" alt="Telegram"></a>
+	 					<a href="https://vk.com/saliev03" class="wow bounceInDown" data-wow-delay="0.3s"><img src="img/socials/vk-social-logotype.png" alt="VK"></a>
+	 					<a href="#" class="wow bounceInDown" data-wow-delay="0.4s"><img src="img/socials/youtube-symbol.png" alt="Youttube"></a>
 	 				</div>
 	 			</div>
 	 			<div class="col-md-4">
@@ -95,5 +96,10 @@
  			</div>
  		</div>
  	</footer>
+
+ 	<script src="js/wow.min.js"></script>
+ 	<script>
+ 		new WOW().init();wow
+ 	</script>
 </body>
 </html>
